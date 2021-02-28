@@ -10,7 +10,7 @@
     --bitcoin-orange:#F7931A;
     --soft-orange: #FFE9D5;
     --secondary-blue: #1A9AF7;
-    --soft-blue: ##E7F5FF;
+    --soft-blue: #E7F5FF;
     --warm-black: #201E1C;
     --black: #282623;
     --grey: #BABABA;
@@ -261,3 +261,35 @@ main {
     line-height: 1.7rem;
     color: #757575;
 }
+/*Primero*/
+.currency-table--date {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+.currency-table--date p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+} 
+/*Segundo*/
+.comissions-table--date {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-blue);
+    border-radius: 8px;
+}
+.comissions-table--date p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+} 
