@@ -142,26 +142,26 @@ main {
     margin: 0 auto;
     font-family: "Inter", sans-serif;
 }
-.main-currency-table .currency-table--title {
+.main-currency-table .currency-table--title {  
     margin-bottom: 15px;
     font-weight: bold;
     font-size: 1.8rem;
     line-height: 2.34rem;
     color: #FF9536;
 }
-.currency-table--container {
+.currency-table--container { 
     width: 90%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
     margin:  0 auto;
 }
-.currency-table--container table {
+.currency-table--container table { 
     width: 100%;
     height: 100%;
     
 }
-.currency-table--container td {
+.currency-table--container td { 
     width: 50%;
     font-size: 1.6rem;
     font-weight: 500;
@@ -206,4 +206,58 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+/*Segunda tabla*/
+.main-comissions-table {
+    width: 70%; /*Esto porque la tabla del diseño no utiliza el 100%*/
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+.main-comissions-table .comissions-table--title {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.34rem;
+    color: var(--secondary-blue);
+}
+.comissions-table--container {
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin:  0 auto;
+}
+.comissions-table--container table {
+    width: 100%;
+    height: 100%;
+    
+}
+.comissions-table--container td { 
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--just-white); /*Se pone aquí para que en cada td se pinte de blanco y queden las rayitas separatorias*/
+}
+.comissions-table--container .table__top-left {
+    border-radius: 15px 0 0 0;
+}
+.comissions-table--container .table__top-right {
+    border-radius: 0 15px 0 0;
+}
+.comissions-table--container .table__bottom-right{
+    border-radius: 0 0 15px 0;
+}
+.comissions-table--container .table__bottom-left {
+    border-radius: 0 0 0 15px;
+}
+ .comissions-table--container .table__right {
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
 }
