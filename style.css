@@ -150,7 +150,7 @@ main {
     color: #FF9536;
     margin-right: 90px;
 }
-.currency-table--container { 
+.currency-table--container{ 
     width: 90%;
     min-width: 230px;
     max-width: 300px;
@@ -217,6 +217,7 @@ main {
     margin: 0 auto;
     font-family: "Inter", sans-serif;
 }
+
 .main-comissions-table .comissions-table--title {
     margin-bottom: 15px;
     font-weight: bold;
