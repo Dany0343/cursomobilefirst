@@ -15,3 +15,9 @@ html{
 .plans-container--slider {
     justify-content: center;
 } 
+.plans-container--card {
+    height: 270px;
+}
+.plans-container--slider {
+    overflow-x: unset;
+}
