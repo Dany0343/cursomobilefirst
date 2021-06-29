@@ -267,7 +267,7 @@ main {
 }
 /*Primero*/
 .currency-table--date {
-    width: 190px;
+    width: 220px;
     height: 30px;
     margin: 0 auto;
     margin-top: 15px;
@@ -283,7 +283,7 @@ main {
 } 
 /*Segundo*/
 .comissions-table--date {
-    width: 190px;
+    width: 220px;
     height: 30px;
     margin: 0 auto;
     margin-top: 15px;
@@ -410,6 +410,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    background-attachment: fixed;
 }
 .bitcoin-img-container h2 {
     padding-top: 65px;

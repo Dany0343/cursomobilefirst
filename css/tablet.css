@@ -1,3 +1,6 @@
+html{
+    font-size: 80%;
+}
 .main-tables-container {
     display: flex;
     width: 930px;
