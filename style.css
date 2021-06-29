@@ -70,11 +70,11 @@ header img {
 .header--title-container .header--button {
     position: absolute;
     left: calc(50% - 118px);
-    top: 229px;
+    top: 270px;
     display: block;
     margin-top: 35px;
     padding: 15px;
-    width: 268px;
+    width: 230px;
     height: 48px;
     background-color: var(--off-white);
     /*Sombra*/
