@@ -21,3 +21,8 @@ html{
 .plans-container--slider {
     overflow-x: unset;
 }
+.header--title-container .header--button {
+    
+    top: 270px;
+    
+}
